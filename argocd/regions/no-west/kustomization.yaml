@@ -6,7 +6,7 @@ resources:
   - ../../operators
   - ../../common
 
-  - ../../operands/no-west
+ # - ../../operands/no-west
  
 patches:
 - target:
