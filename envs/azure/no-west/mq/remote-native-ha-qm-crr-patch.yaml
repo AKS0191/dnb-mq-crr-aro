@@ -1,3 +1,7 @@
 - op: replace 
   path: /spec/queueManager/availability/nativeHAGroups/remotes/0/addresses/0
   value: native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.mqpoc.norwayeast.aroapp.io:443
+
+- op: add 
+  path: /spec/queueManager/availability/nativeHAGroups/local/role
+  value: Recovery
