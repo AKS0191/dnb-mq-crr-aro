@@ -6,7 +6,8 @@ resources:
  
   # Resources for QM using a self signed server certificate.
   - native-ha-qm-crr
-
+  - qm1
+  
   #- singleinstance-qm
 
   #- messagingserver
