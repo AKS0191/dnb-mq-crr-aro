@@ -9,9 +9,9 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: ./argocd/regions/us-east
+    path: ./argocd/regions/no-east
     targetRevision: HEAD
-    repoURL: https://github.com/louhaz/mq-crr-aro.git
+    repoURL: https://github.com/AKS0191/dnb-mq-crr-aro.git
   syncPolicy:
     automated:
       prune: true
