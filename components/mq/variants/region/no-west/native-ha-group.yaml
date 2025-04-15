@@ -16,7 +16,8 @@ spec:
                 - tls.crt
         remotes: 
           - addresses:  
-            - native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.mqpoc.norwayeast.aroapp.io:443
+           # - native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.mqpoc.norwayeast.aroapp.io:443
+             - PATCHED_BY_KUSTOMIZE
             name: no-east
             trust: 
               - secret:
