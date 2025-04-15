@@ -7,7 +7,7 @@ spec:
     availability:
       nativeHAGroups:
         local:
-          name: us-east
+          name: no-east
           tls:
             key:
               secretName: default-cert-copy
@@ -16,8 +16,8 @@ spec:
                 - tls.crt
         remotes: 
           - addresses:  
-            - native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.avly7wz7.westus.aroapp.io:443
-            name: us-west
+            - native-ha-qm-crr-ibm-mq-nhacrr-cp4i.apps.mqpoc.norwaywest.aroapp.io:443
+            name: no-west
             trust: 
               - secret:
                   secretName: default-cert-copy   
