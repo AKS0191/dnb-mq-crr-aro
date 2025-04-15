@@ -4,4 +4,4 @@
 
 - op: add 
   path: /spec/queueManager/availability/nativeHAGroups/local/role
-  value: Live
+  value: Recovery
