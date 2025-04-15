@@ -6,7 +6,7 @@ resources:
   - ../../operators
   - ../../common
 
- # - ../../operands/no-east
+  - ../../operands/no-east
  
 patches:
 - target:
